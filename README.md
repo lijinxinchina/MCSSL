@@ -1,16 +1,16 @@
-# CAMR: Cross-aligned multimodal representation learn-ing for cancer survival prediction
-This is an implementation of CAMR in Python 3.6.13 under Linux with CPU Intel Xeon 4110 @ 2.10GHz, GPU NVIDIA GeForce RTX 2080 Ti, and 192GB of RAM. It follows a modern deep learning design and is implemented by PyTorch platform.
-# Installation
-git clone https://github.com/wxq-ustc/CAMR.git
-# Run the main routine
-Examples shown below for training or testing:
+# MCSSL
+  MCSSL: Learning multi-modal consistent and specific representation of gene pair for synthetic lethality prediction.
+# Requirements
+You'll need to install the following packages in order to run the codes.
+python 3.6.13
+torch 1.0.0
+torchsummary 1.5.1
+torchvision 0.2.2
+numpy 1.19.5
+pandas 1.1.5
+tqdm  4.19.9
 
-Training:
-
-python train_cv.py
-
-Testing:
-
+Run train_cv.py to obtain the predicted results.
 python test_cv.py
 # Acknowledgments
-This code is inspired by MISA and Pathomic Fusion.
+

@@ -18,6 +18,5 @@ pandas 1.1.5
 tqdm  4.19.9
 
 Run train_cv.py to obtain the predicted results.
-python test_cv.py
-# Acknowledgments
-
+# Contact 
+jinxinli1997@126.com

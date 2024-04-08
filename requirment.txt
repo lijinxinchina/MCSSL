@@ -1,0 +1,8 @@
+### Required environment for runing MCSSL ###
+python 3.6.13
+torch 1.0.0
+torchsummary 1.5.1
+torchvision 0.2.2
+numpy 1.19.5
+pandas 1.1.5
+tqdm  4.19.9
